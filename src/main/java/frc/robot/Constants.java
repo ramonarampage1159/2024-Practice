@@ -13,7 +13,69 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
-  public static class OperatorConstants {
-    public static final int kDriverControllerPort = 0;
+  /**public class Motors{
+    public  class DriveMotors{
+        public static final int m_frontLeft = 3;
+        public static final int m_rearLeft = 4;
+        public static final int m_frontRight = 1;
+        public static final int m_rearRight = 2;
+    }
+    
+  }*/
+
+  public final class Motors{
+
+    public static final int m_frontLeft = 4;
+    public static final int m_rearLeft = 2;
+    public static final int m_frontRight = 3;
+    public static final int m_rearRight = 1;
+    
+    public static final int m_arm1 = 5;
+    public static final int m_arm2 = 6;
+
+    public static final int m_intake1 = 14;
+    public static final int m_intake2 = 15;
+    public static final int m_intake3 = 16;
+
+
   }
-}
+
+
+  public final class DriverController{
+
+    public static final int kDriverControllerPort = 0;
+    public static final int m_driverController = 0;
+    
+       
+      public final class Joystick{
+
+       public static final int m_leftStickX = 0;
+       public static final int m_leftStickY = 1;
+       
+    }
+    
+   }
+
+   public final class OperatorController{
+
+    public static final int m_operatorController = 1; 
+
+
+      public final class JoystickButtons {
+        public static final int m_xButton = 1;
+        public static final int m_bButton = 3;
+        public static final int m_rbButton = 6;
+        public static final int m_rtButton = 8; //CY added for testing
+
+      }
+
+      public final class JoystickAxis{
+        public static final int m_leftStickX = 0;
+        public static final int m_leftStickY = 1;
+      }
+
+   }
+
+
+  }
+
